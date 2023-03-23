@@ -1,4 +1,39 @@
 ASSIGNMENT 3
+PROGRAM 1
+coding:
+#include <stdio.h>
+
+int main() {
+   int num1, num2, num3, max;
+   
+   printf("Enter three numbers: ");
+   scanf("%d %d %d", &num1, &num2, &num3);
+   
+   max = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+   
+   printf("The maximum of the three numbers is %d", max);
+   
+   return 0;
+}
+
+PROGRAM 3
+coding:
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+    
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    
+    for (int i = 1; i <= n; i += 2) {
+        sum += i;
+    }
+    
+    printf("Sum of all odd numbers from 1 to %d is %d\n", n, sum);
+    
+    return 0;
+}
 
 PROGARM 5
 output: 20 10 20
@@ -7,7 +42,7 @@ PROGRAM 6
 output: 10n11n
 
 PROGRAM 7
-output:
+coding:
 #include <stdio.h>
 
 int main () {
